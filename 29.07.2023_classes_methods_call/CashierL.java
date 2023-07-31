@@ -1,8 +1,8 @@
 
-class Cashier {
-    Token issueToken(Money m){
+class CashierL {
+    TokenL issueTokenL(MoneyL m){
         System.out.println("Cashier recieve money from customer " + m);
-        Token t = new Token();
+        TokenL t = new TokenL();
         System.out.println("Cashier issue token to customer " + t);
         return t;
     }
