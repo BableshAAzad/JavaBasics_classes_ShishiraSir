@@ -1,5 +1,5 @@
 class DeliveryBoyPic {
    void deliveryProduct(){
-       ProductPic pc = new
+       ProductPic pc = new ProductPic();
     }
 }

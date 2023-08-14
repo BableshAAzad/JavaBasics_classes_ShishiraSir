@@ -12,7 +12,7 @@ class AvgToGive {
         }
     }
 
-    static boolean i(int x) {
+    static boolean isArmStrong(int x) {
         double sum = 0;
         int y = x;
         int dc = power(x);
